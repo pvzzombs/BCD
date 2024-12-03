@@ -1,0 +1,137 @@
+[
+    {
+        "comment": "You are such an idiot!!!",
+        "cleaned": "you are such an idiot",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "Go f*ck yourself!",
+        "cleaned": "go fuck yourself",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "@user You're being $h1t!",
+        "cleaned": "you are being shit",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "Totally agree with you.",
+        "cleaned": "totally agree with you",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "You piece of f*cking trash!",
+        "cleaned": "you piece of fucking trash",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "You are a great person!",
+        "cleaned": "you are a great person",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Shut upppp!",
+        "cleaned": "shut up",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "a**hole",
+        "cleaned": "asshole",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "This is so stuuuupid!",
+        "cleaned": "this is so stupid",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Go to hell!!!",
+        "cleaned": "go to hell",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "Nice work, well done!",
+        "cleaned": "nice work well done",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "d@mn it!",
+        "cleaned": "damn it",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "motherf*ck*r",
+        "cleaned": "motherfucker",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "What a jerk!",
+        "cleaned": "what a jerk",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "You're awesome!",
+        "cleaned": "you are awesome",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Get lost, fool!",
+        "cleaned": "get lost fool",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Th1s 1s cr@p",
+        "cleaned": "this is crap",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "Such a foolish idiot",
+        "cleaned": "such a foolish idiot",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "f*ck you and all of you motherf*cker$",
+        "cleaned": "fuck you and all of you motherfuckers",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "Eat your shit",
+        "cleaned": "eat your shit",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "It's a fine day",
+        "cleaned": "it is a fine day",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Good luck to all of you",
+        "cleaned": "good luck to all of you",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "Great job, this is a masterpiece",
+        "cleaned": "great job this is a masterpiece",
+        "expected": "Non-Toxic"
+    },
+    {
+        "comment": "fck",
+        "cleaned": "fck",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "mtherfcker",
+        "cleaned": "mtherfucker",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "fffffffuuuuuuuuuuuucccccccckkkkkkkkkkkkkkk",
+        "cleaned": "fuck",
+        "expected": "Toxic"
+    },
+    {
+        "comment": "fffffff*cccccccckkkkkkkkkkkkkkk",
+        "cleaned": "fuck",
+        "expected": "Toxic"
+    }
+]
